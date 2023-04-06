@@ -14,14 +14,12 @@ Easy to setup, follow these steps:
 
 ### Step 1: Download pre-build simgen for Linux.
 
-This command will download simgen file and place it to .sim directory.
+1. Download latest release here: https://github.com/ethan-v/simgen/releases
 
-You can change directory to any things you want.
+2. Create a directory to copy simgen file and the templates.
 
 ```shell
-cd <your_project_path>
-mkdir .sim
-wget https://github.com/ethan-v/simgen/blob/77344b95dd2b496da6aec2fd70d8d57c9f3bae05/.sim/simgen -P .sim
+mkdir <your_project_path>/.sim
 chmod +x .sim/simgen
 ```
 
